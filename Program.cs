@@ -4,7 +4,7 @@ string s1 = "Tom Marvolo Riddle";
 string s2 = "I am Lord Voldemort";
 
 Console.WriteLine("Проверка строк на анаграммы.");
-
+Console.WriteLine("Проверим строки: '" + s1 + "' и '" + s2 + "'");
 
 Console.WriteLine(IsAnagrams(s1, s2)? "Строки - анаграммы!" : "Строки не анаграммы.");
 
